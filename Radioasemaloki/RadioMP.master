@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="RadioMP.master.cs" Inherits="RadioMP" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="title" Runat="Server">
+    <asp:ContentPlaceHolder id="title" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="theme" Runat="Server">
+    <asp:ContentPlaceHolder id="theme" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="subTitle" Runat="Server">
+    <asp:ContentPlaceHolder id="subTitle" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="main" Runat="Server">
+    <div class="input">
+        <asp:ContentPlaceHolder ID="input" runat="server" />
+    </div>
+    <div class="submit">
+        <asp:ContentPlaceHolder ID="submit" runat="server" />
+    </div>
+    <div class="result">
+        <asp:ContentPlaceHolder ID="result" runat="server" />
+    </div>
+</asp:Content>
+

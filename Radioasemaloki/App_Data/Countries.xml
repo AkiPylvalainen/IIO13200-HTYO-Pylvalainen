@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+	<Country name="Suomi">
+		<Location name="Helsinki"></Location>
+		<Location name="Jyväskylä"></Location>
+		<Location name="Pori"></Location>
+		<Location name="Lahti"></Location>
+		<Location name="Espoo"></Location>
+		<Location name="Kuopio"></Location>
+	</Country>
+	<Country name="Englanti">
+		<Location name="Lontoo"></Location>
+    <Location name="Oxford"></Location>
+	</Country>
+	<Country name="Ruotsi">
+		<Location name="Tukholma"></Location>
+		<Location name="Uppsala"></Location>
+	</Country>
+	<Country name="Ranska">
+		<Location name="Pariisi"></Location>
+		<Location name="Toulouse"></Location>
+		<Location name="Lyon"></Location>
+	</Country>
+  <Country name="USA">
+    <Location name="Washington D.C."></Location>
+    <Location name="Chicago"></Location>
+    <Location name="Detroit"></Location>
+  </Country>
+  <Country name="Japani"></Country>
+</Countries>

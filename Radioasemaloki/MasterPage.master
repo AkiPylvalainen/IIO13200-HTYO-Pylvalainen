@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Radioasemaloki</title>
+    <link href="Styles/Style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="page">
+            <div class="topbar">
+                <div class="logo">
+                    <asp:HyperLink runat="server" NavigateUrl="~/Index.aspx">
+                        <asp:Image ID="logoImage" runat="server" SkinID="RadioLogo" />
+                    </asp:HyperLink>
+                </div>
+                <div class="title">
+                    <h1><asp:ContentPlaceHolder id="title" runat="server" /></h1>
+                </div>
+                <div class="theme">
+                    <asp:ContentPlaceHolder ID="theme" runat="server" />
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="navbar">
+                    <div class="box-content">
+                        <div class="box-title">
+                            <h3>Linkit</h3>
+                        </div>
+                        <ul>
+                            <li><asp:HyperLink runat="server" NavigateUrl="~/Index.aspx">Etusivulle</asp:HyperLink></li>
+                            <li><asp:HyperLink runat="server" NavigateUrl="~/StationSave.aspx">Lisää asema</asp:HyperLink></li>
+                            <li><asp:HyperLink runat="server" NavigateUrl="~/ReportSave.aspx">Lisää raportti</asp:HyperLink></li>
+                            <li><asp:HyperLink runat="server" NavigateUrl="~/StationRead.aspx">Hae asemat</asp:HyperLink></li>
+                            <li><asp:HyperLink runat="server" NavigateUrl="~/ReportRead.aspx">Hae raportit</asp:HyperLink></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="box-content">
+                        <div class="box-title">
+                            <h3><asp:ContentPlaceHolder id="subTitle" runat="server" /></h3>
+                        </div>
+                        <asp:ContentPlaceHolder id="main" runat="server" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

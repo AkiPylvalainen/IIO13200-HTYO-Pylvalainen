@@ -1,0 +1,92 @@
+﻿body {
+    font-family: "Arial";
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.dropdown {
+    width: 153px;
+}
+
+#input-report {
+}
+
+.report-box {
+    width: 50%;
+    text-wrap:normal;
+}
+
+.logo, .title, .theme {
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+
+.theme {
+    padding-top: 35px;
+}
+
+.topbar {
+    clear: both;
+    font-size: 1.2em;
+}
+
+.main {
+    padding: 10px;
+    clear:both;
+}
+
+.navbar, .content {
+    float: left;
+}
+
+.navbar {
+    width: 15%;
+}
+
+.box-title {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border:1px solid #CEDCEA;
+}
+
+.navbar-list {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:1px solid #CEDCEA;
+}
+
+.box-content {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:1px solid #CEDCEA;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+	font-size: 1.2em;
+	padding-bottom: 15px;
+}
+
+.content {
+    width: 85%;
+}
+
+.article, .input, .submit, .result {
+    padding: 10px;
+}

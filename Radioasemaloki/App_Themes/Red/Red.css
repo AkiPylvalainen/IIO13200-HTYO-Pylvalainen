@@ -1,0 +1,20 @@
+﻿h1 {
+    color: red;
+}
+
+h3 {
+    color: #880000;
+}
+
+.box-title {
+    background: #FF0000;
+    border:1px solid #DD0000;
+}
+
+.box-content {
+    border:1px solid #DD0000;
+}
+
+body {
+
+}
